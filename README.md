@@ -4,7 +4,7 @@
 
 ## Stack
 
-* MongoDB
+* [MongoDB](https://www.mongodb.com/)
 * Express
 * React
 * Node.js
