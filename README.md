@@ -4,12 +4,20 @@
 
 ## Stack
 
+**Database**
 * [MongoDB](https://www.mongodb.com/)
 * Redis
   > on [Upstash](https://upstash.com/)
+
+**Backend**
 * Express
-* React
 * Node.js
+
+**Frontend**
+* Vite
+* React
+* Tailwind CSS
+* Daisy UI - UI Components
 
 ## Backend
 
