@@ -5,6 +5,8 @@
 ## Stack
 
 * [MongoDB](https://www.mongodb.com/)
+* Redis
+  > on [Upstash](https://upstash.com/)
 * Express
 * React
 * Node.js
