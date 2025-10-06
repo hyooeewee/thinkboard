@@ -1,5 +1,5 @@
 /** @format */
-import axios from 'axios';
+import api from '@/lib/api';
 import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 
@@ -14,7 +14,7 @@ const HomePage = () => {
 	useEffect(() => {
 		const fetchNotes = async () => {
 			try {
-				const res = await axios.get('http://localhost:5001/api/notes');
+				const res = await api.get('/notes');
 				setNotes(res.data.data);
 				setIsRateLimited(false);
 			} catch (error) {
