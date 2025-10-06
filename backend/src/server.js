@@ -11,6 +11,7 @@ import notesRouter from './routers/notesRouter.js';
 
 dotenv.config();
 const PORT = process.env.PORT || 5001;
+console.log(`${process.env.NODE_ENV} Mode`);
 
 const app = express();
 
