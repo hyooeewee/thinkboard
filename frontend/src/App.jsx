@@ -1,6 +1,5 @@
 /** @format */
 
-import toast from 'react-hot-toast';
 import { Route, Routes } from 'react-router';
 import CreatePage from './pages/CreatePage';
 import HomePage from './pages/HomePage';
@@ -8,10 +7,8 @@ import NoteDetailPage from './pages/NoteDetailPage';
 
 const App = () => {
 	return (
-		<div>
-			<button onClick={() => toast.success('Hello World')} className="btn btn-outline">
-				Click me!
-			</button>
+		<div className="relative size-full">
+			<div className="absolute inset-0 -z-10 size-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_60%,#00ff9d40_100%)]" />
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/create" element={<CreatePage />} />
