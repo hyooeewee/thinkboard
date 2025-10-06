@@ -1,0 +1,16 @@
+{
+  "name": "thinkboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "pnpm i --prefix backend && pnpm i --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "setup": "npm run install && npm run build",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0"
+}
