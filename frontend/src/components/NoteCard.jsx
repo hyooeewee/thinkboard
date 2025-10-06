@@ -13,7 +13,7 @@ const NoteCard = ({ note, setNotes }) => {
 		try {
 			const res = await api.delete(`/notes/${id}`);
 			if (res.status === 200) {
-				setNotes((prev) => prev.filter((note) => note._id !== id));
+				setNotes((prev) => prev.filter((note) => note._id !== id)); // get rid of the deleted note
 				toast.success(res.data.msg);
 			}
 		} catch (error) {
